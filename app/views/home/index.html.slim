@@ -1,1 +1,7 @@
-= react_component("Game")
+/ = react_component("Game")
+
+.card
+  .card-header
+    | TODOアプリケーション
+  .card-body
+    = react_component("TaskIndex", tasks: @tasks)
